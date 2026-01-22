@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include <QSerialPort>
+#include <QJsonDocument>
+#include <QJsonObject>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -19,9 +21,11 @@ public:
 private:
     Ui::MainWindow *ui;
     QSerialPort *serial;
+    QByteArray serialBuffer;
 
 private slots:
     void readSerialData();
+    void traiterTrame(const QByteArray& trame);
 
 };
 #endif // MAINWINDOW_H
