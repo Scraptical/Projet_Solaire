@@ -5,6 +5,11 @@
 #include <QSerialPort>
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QFile>
+#include <QDir>
+#include <QDebug>
+#include <QString>
+#include <QTextStream>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -22,12 +27,12 @@ private:
     Ui::MainWindow *ui;
     QSerialPort *serial;
     QByteArray serialBuffer;
+    QString stockage;
 
 private slots:
     void readSerialData();
     void traiterTrame(const QByteArray& trame);
-    void verifTrame();
-    void conversionInt();
+    void makeFile();
 
 };
 #endif // MAINWINDOW_H

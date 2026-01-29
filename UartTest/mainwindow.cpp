@@ -47,18 +47,19 @@ void MainWindow::readSerialData()
     ui->labelData->setText(ui->labelData->text() + QString::fromUtf8(data)); */
 
     serialBuffer += serial->readAll();
+    qDebug() << serialBuffer;
 
     while(serialBuffer.contains('\r'))
     {
+        stockage = QString(serialBuffer);
         int index = serialBuffer.indexOf('\r');
         QByteArray line = serialBuffer.left(index);
         serialBuffer.remove(0, index + 1);
 
         ui->labelData->setText(QString::fromUtf8(line));
-
+        makeFile();
 
         traiterTrame(line);
-        verifTrame();
     }
 }
 
@@ -73,23 +74,31 @@ void MainWindow::traiterTrame(const QByteArray& trame)
             qDebug() << "JSON invalide : " << trame;
             return;
         }
+        QJsonObject obj = doc.object();
+        if(obj.contains("P") && obj.contains("B"))      //On peut altérer cette ligne pour reconnaitre plusieurs lettres comme la tension (T) ou l'intensité (I)
+        {
+            double puissance = obj["P"].toDouble();     //Même chose, on peut rajouter des lignes pour les nouvelle lettres en suivant la même logique
+            int batterie = obj["B"].toInt();
+
+            ui->labelPower->setText(QString("Puissance : %1 W").arg(puissance));        //Ne pas oublier de rajouter des label dans la UI lorsqu'on rajoute des valeurs !!
+
+            ui->labelBattery->setText(QString("Batterie : %1 %").arg(batterie));
+        }
 }
 
-void MainWindow::verifTrame()
+void MainWindow::makeFile()
 {
-    QJsonObject obj = doc.object();
-    if(obj.contains("P") && obj.contains("B"))      //On peut altérer cette ligne pour reconnaitre plusieurs lettres comme la tension (T) ou l'intensité (I)
+    QFile File("data.json");
+    if (File.open(QIODevice::Truncate | QIODevice::ReadWrite))
     {
-        conversionInt();
-
-        ui->labelPower->setText(QString("Puissance : %1 W").arg(puissance));        //Ne pas oublier de rajouter des label dans la UI lorsqu'on rajoute des valeurs !!
-
-        ui->labelBattery->setText(QString("Batterie : %1 %").arg(batterie));
+        QTextStream stream(&File);
+        qDebug() << "test n°x : " << stockage;
+        stream << QString(stockage);
+        qDebug() << "Fichier créé avec succès !";
+        qDebug() << "Chemin : " << QFileInfo(File).absoluteFilePath();
     }
+    File.close();
+
+
 }
 
-void conversionInt()
-{
-    double puissance = obj["P"].toDouble();     //Même chose, on peut rajouter des lignes pour les nouvelle lettres en suivant la même logique
-    int batterie = obj["B"].toInt();
-}
