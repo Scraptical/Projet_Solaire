@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-969328d61d3f8414d915.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UartTest",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "UartTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UartTest-Debug-cafc79e857139d2b0ce9.json",
+					"name" : "UartTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UartTest_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UartTest_autogen-Debug-1a9616437aee927e4968.json",
+					"name" : "UartTest_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UartTest_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UartTest_autogen_timestamp_deps-Debug-51bdd280dd2b41c9aa84.json",
+					"name" : "UartTest_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug",
+		"source" : "/home/admin/Desktop/Documents/QT_test/Projet_Solaire/UartTest"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

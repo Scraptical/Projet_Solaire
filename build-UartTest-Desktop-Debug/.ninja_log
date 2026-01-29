@@ -1,0 +1,59 @@
+# ninja log v5
+3	1197	1769701282136475689	UartTest_autogen/timestamp	4a14471b31d91f08
+3	1197	1769701282136475689	UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+3	1197	1769701282136475689	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/timestamp	4a14471b31d91f08
+3	1197	1769701282136475689	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+1199	15922	1769701296888254597	CMakeFiles/UartTest.dir/main.cpp.o	48bc457967ac50a2
+1198	16098	1769701297068251899	CMakeFiles/UartTest.dir/UartTest_autogen/mocs_compilation.cpp.o	dfea3ec421f2fd25
+1199	16553	1769701297512245246	CMakeFiles/UartTest.dir/mainwindow.cpp.o	239a87f881f5eef7
+16553	17533	1769701298516230200	UartTest	f07afe575dfcb544
+15	191	1769701558432340720	UartTest_autogen/timestamp	4a14471b31d91f08
+15	191	1769701558432340720	UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+15	191	1769701558432340720	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/timestamp	4a14471b31d91f08
+15	191	1769701558432340720	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+194	12513	1769701570724157012	CMakeFiles/UartTest.dir/mainwindow.cpp.o	239a87f881f5eef7
+12514	13524	1769701571748141709	UartTest	f07afe575dfcb544
+15	214	1769701726325832812	UartTest_autogen/timestamp	4a14471b31d91f08
+15	214	1769701726325832812	UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+15	214	1769701726325832812	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/timestamp	4a14471b31d91f08
+15	214	1769701726325832812	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+217	11882	1769701737961659099	CMakeFiles/UartTest.dir/mainwindow.cpp.o	239a87f881f5eef7
+11882	12882	1769701738981643872	UartTest	f07afe575dfcb544
+16	230	1769701807008628509	UartTest_autogen/timestamp	4a14471b31d91f08
+16	230	1769701807008628509	UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+16	230	1769701807008628509	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/timestamp	4a14471b31d91f08
+16	230	1769701807008628509	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+234	11884	1769701818636454987	CMakeFiles/UartTest.dir/mainwindow.cpp.o	239a87f881f5eef7
+11885	12873	1769701819640440005	UartTest	f07afe575dfcb544
+16	224	1769701876495591696	UartTest_autogen/timestamp	4a14471b31d91f08
+16	224	1769701876495591696	UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+16	224	1769701876495591696	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/timestamp	4a14471b31d91f08
+16	224	1769701876495591696	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+227	11977	1769701888227416677	CMakeFiles/UartTest.dir/mainwindow.cpp.o	239a87f881f5eef7
+11978	13016	1769701889283400924	UartTest	f07afe575dfcb544
+14	205	1769702246073902381	UartTest_autogen/timestamp	4a14471b31d91f08
+14	205	1769702246073902381	UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+14	205	1769702246073902381	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/timestamp	4a14471b31d91f08
+14	205	1769702246073902381	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+210	11657	1769702257501723939	CMakeFiles/UartTest.dir/mainwindow.cpp.o	239a87f881f5eef7
+11658	12634	1769702258497708394	UartTest	f07afe575dfcb544
+21	331	1769702325840659955	UartTest_autogen/timestamp	4a14471b31d91f08
+21	331	1769702325840659955	UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+21	331	1769702325840659955	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/timestamp	4a14471b31d91f08
+21	331	1769702325840659955	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+334	12030	1769702337512478736	CMakeFiles/UartTest.dir/mainwindow.cpp.o	239a87f881f5eef7
+12031	13063	1769702338560462471	UartTest	f07afe575dfcb544
+10	251	1769702391487642450	UartTest_autogen/timestamp	4a14471b31d91f08
+10	251	1769702391487642450	UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+10	251	1769702391487642450	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/timestamp	4a14471b31d91f08
+10	251	1769702391487642450	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+254	12335	1769702403547455969	CMakeFiles/UartTest.dir/mainwindow.cpp.o	239a87f881f5eef7
+12336	13355	1769702404583439956	UartTest	f07afe575dfcb544
+26	1257	1769702550533192671	UartTest_autogen/timestamp	4a14471b31d91f08
+26	1257	1769702550533192671	UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+26	1257	1769702550533192671	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/timestamp	4a14471b31d91f08
+26	1257	1769702550533192671	/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/UartTest_autogen/mocs_compilation.cpp	4a14471b31d91f08
+1259	15574	1769702564856972955	CMakeFiles/UartTest.dir/main.cpp.o	48bc457967ac50a2
+1258	16085	1769702565364965165	CMakeFiles/UartTest.dir/UartTest_autogen/mocs_compilation.cpp.o	dfea3ec421f2fd25
+1261	16409	1769702565688960197	CMakeFiles/UartTest.dir/mainwindow.cpp.o	239a87f881f5eef7
+16409	17386	1769702566680944986	UartTest	f07afe575dfcb544

@@ -83,6 +83,7 @@ void MainWindow::traiterTrame(const QByteArray& trame)
             ui->labelPower->setText(QString("Puissance : %1 W").arg(puissance));        //Ne pas oublier de rajouter des label dans la UI lorsqu'on rajoute des valeurs !!
 
             ui->labelBattery->setText(QString("Batterie : %1 %").arg(batterie));
+
         }
 }
 
@@ -98,7 +99,5 @@ void MainWindow::makeFile()
         qDebug() << "Chemin : " << QFileInfo(File).absoluteFilePath();
     }
     File.close();
-
-
 }
 

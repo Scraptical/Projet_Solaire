@@ -1,0 +1,9 @@
+/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/CMakeFiles/UartTest.dir
+/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/CMakeFiles/install.dir
+/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/CMakeFiles/install/local.dir
+/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/CMakeFiles/install/strip.dir
+/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/CMakeFiles/UartTest_autogen_timestamp_deps.dir
+/home/admin/Documents/Qt test/build-UartTest-Desktop-Debug/CMakeFiles/UartTest_autogen.dir
