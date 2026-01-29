@@ -56,7 +56,9 @@ void MainWindow::readSerialData()
 
         ui->labelData->setText(QString::fromUtf8(line));
 
+
         traiterTrame(line);
+        verifTrame();
     }
 }
 
@@ -71,17 +73,23 @@ void MainWindow::traiterTrame(const QByteArray& trame)
             qDebug() << "JSON invalide : " << trame;
             return;
         }
+}
 
+void MainWindow::verifTrame()
+{
     QJsonObject obj = doc.object();
-
     if(obj.contains("P") && obj.contains("B"))      //On peut altérer cette ligne pour reconnaitre plusieurs lettres comme la tension (T) ou l'intensité (I)
     {
-        double puissance = obj["P"].toDouble();     //Même chose, on peut rajouter des lignes pour les nouvelle lettres en suivant la même logique
-        int batterie = obj["B"].toInt();
+        conversionInt();
 
         ui->labelPower->setText(QString("Puissance : %1 W").arg(puissance));        //Ne pas oublier de rajouter des label dans la UI lorsqu'on rajoute des valeurs !!
 
         ui->labelBattery->setText(QString("Batterie : %1 %").arg(batterie));
     }
+}
 
+void conversionInt()
+{
+    double puissance = obj["P"].toDouble();     //Même chose, on peut rajouter des lignes pour les nouvelle lettres en suivant la même logique
+    int batterie = obj["B"].toInt();
 }

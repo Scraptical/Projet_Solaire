@@ -26,6 +26,8 @@ private:
 private slots:
     void readSerialData();
     void traiterTrame(const QByteArray& trame);
+    void verifTrame();
+    void conversionInt();
 
 };
 #endif // MAINWINDOW_H
