@@ -48,7 +48,7 @@ bool MainWindow::openSerial()
     }
     else
     {
-        ui->lavbelData->setText(serial->errorString());
+        ui->labelData->setText(serial->errorString());
         return false;
     }
 }
@@ -93,7 +93,55 @@ void MainWindow::traiterTrame(const QByteArray& data)
 
 }
 
-Qlist<QbyteArray> MainWindow::extractFrames()
+QList<QByteArray> MainWindow::extractFrames()
 {
+    QList<QByteArray> frames;
+    while(serialBuffer.contains('\r'))
+    {
+        int index = serialBuffer.indexOf('\r');
+        frames.append(serialBuffer.left(index));
+        serialBuffer.remove(1, index+1);
+    }
+    return frames;
+}
 
+bool MainWindow::parseJsonFrame(const QByteArray& frame, double &p, int &b)
+{
+    QJsonParseError err;
+    QJsonDocument doc = QJsonDocument::fromJson(frame, &err);
+
+    if (err.error != QJsonParseError::NoError || !doc.isObject())
+    {
+        return false;
+    }
+
+    QJsonObject obj = doc.object();
+
+    if(!obj.contains("P") || !obj.contains("B"))
+    {
+        return false;
+    }
+
+    p = obj["P"].toDouble();
+    b = obj["B"].toInt();
+
+    return true;
+}
+
+void MainWindow::updateUiValues(double puissance, int batterie)
+{
+    ui->labelPower->setText(QString("Puissance : %1 W").arg(puissance));
+    ui->labelBattery->setText(QString("Batterie : %1 %").arg(batterie));
+}
+
+void MainWindow::saveToJsonFile(const QString& text)
+{
+    QFile file("data.json");
+
+    if(file.open(QIODevice::Turncate | QIODevice::WriteOnly))
+    {
+        QTextStream stream(&file);
+        stream << text;
+        file.close();
+    }
 }
