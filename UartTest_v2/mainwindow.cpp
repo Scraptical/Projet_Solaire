@@ -7,15 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    //Vérification que l'UART fonctionne
-    if(serial->open(QIODevice::ReadOnly))
-    {
-        ui->labelData->setText("UART connecté");
-    }
-    else
-    {
-        ui->labelData->setText("Erreur Uart");
-    }
+    setupSerial();
 
     connect(serial, &QSerialPort::readyRead,this, &MainWindow::readSerialData);
 }
@@ -37,6 +29,8 @@ void MainWindow::setupSerial()
     serial->setStopBits(QSerialPort::OneStop);
     serial->setFlowControl(QSerialPort::NoFlowControl);
 
+    openSerial();
+
 }
 
 bool MainWindow::openSerial()
@@ -45,19 +39,12 @@ bool MainWindow::openSerial()
     {
         ui->labelData->setText("UART connecté");
         return true;
+        readSerialData();
     }
     else
     {
         ui->labelData->setText(serial->errorString());
         return false;
-    }
-}
-
-void MainWindow::setupSerial()
-{
-    if(openSerial())
-    {
-        connect(serial, &QSerialPort::readyRead, this, &MainWindow::readSerialData);
     }
 }
 
@@ -87,7 +74,7 @@ void MainWindow::traiterTrame(const QByteArray& data)
 
         if (parseJsonFrame(frame, p, b))
         {
-            updateUiValues(p, b)
+            updateUiValues(p, b);
         }
     }
 
@@ -138,7 +125,7 @@ void MainWindow::saveToJsonFile(const QString& text)
 {
     QFile file("data.json");
 
-    if(file.open(QIODevice::Turncate | QIODevice::WriteOnly))
+    if(file.open(QIODevice::Truncate | QIODevice::WriteOnly))
     {
         QTextStream stream(&file);
         stream << text;
