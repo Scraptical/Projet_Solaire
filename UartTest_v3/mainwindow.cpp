@@ -7,6 +7,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    //On commence le programme avec ces 2 méthode,
+    //une pour mettre en place les information de communications,
+    //et l'autre pour lancer la lecture de la tramme (et tous le programme)
     setupSerial();
     verifSerial();
 
@@ -35,59 +38,59 @@ void MainWindow::verifSerial()
     //Vérification que l'UART fonctionne
     if(serial->open(QIODevice::ReadOnly))
     {
-        ui->labelData->setText("UART connecté");
+        ui->labelData->setText("UART connecté"); //Connexion réussit
     }
     else
     {
-        ui->labelData->setText("Erreur Uart");
+        ui->labelData->setText("Erreur Uart"); //Connexion échoué
     }
 
-    connect(serial, &QSerialPort::readyRead,this, &MainWindow::readSerialData);
+    connect(serial, &QSerialPort::readyRead,this, &MainWindow::readSerialData); //Dans tous les cas, on continue
 }
 
 void MainWindow::readSerialData()
 {
     serialBuffer += serial->readAll();
-    qDebug() << serialBuffer;
+    qDebug() << serialBuffer; //indique ce que l'on tape dans la console (au cas où on fait n'importe quoi)
 
-    while(serialBuffer.contains('\r'))
+    while(serialBuffer.contains('\r')) //Quand on appuis sur 'entrée'
     {
-        stockage = QString(serialBuffer);
-        int index = serialBuffer.indexOf('\r');
+        stockage = QString(serialBuffer); //Stockage qui sera placé sur le fichier.json
+        int index = serialBuffer.indexOf('\r'); //on retient l'emplacement de la touche 'entrée'
         QByteArray ligne = serialBuffer.left(index);
         serialBuffer.remove(0, index + 1);
 
-        ui->labelData->setText(QString::fromUtf8(ligne));
+        ui->labelData->setText(QString::fromUtf8(ligne)); //la ligne reçu est marqué sur l'interface
 
         trameISjson(ligne);
         makeFile();
     }
+
 }
 
 QJsonDocument MainWindow::trameISjson(const QByteArray &data)
 {
     QJsonParseError err;
     QJsonDocument doc = QJsonDocument::fromJson(data, &err);
-    qDebug() << "avant if : " << doc;
-        if (err.error != QJsonParseError::NoError || !doc.isObject())
+        if (err.error != QJsonParseError::NoError || !doc.isObject()) //On check si la ligne reçu correspond bien au format JSON
         {
-            qDebug() << "JSON invalide : " << data;
+            qDebug() << "JSON invalide : " << data; //C'est pas le cas ? On le note dans la console
             return doc;
         }
 
-        convertData(doc);
+        convertData(doc); // Le format est valide ? Alors on passe à la suite
         return doc;
 }
 
 QPair<double, int> MainWindow::convertData(QJsonDocument doc)
 {
-    QJsonObject obj = doc.object();
-    if(obj.contains("P") && obj.contains("B"))      //On peut altérer cette ligne pour reconnaitre plusieurs lettres comme la tension (T) ou l'intensité (I)
+    QJsonObject obj = doc.object(); //on transforme note ligne en obj
+    if(obj.contains("P") && obj.contains("B")) //On peut altérer cette ligne pour reconnaitre plusieurs lettres comme la tension (T) ou l'intensité (I)
     {
-        double puissance = obj["P"].toDouble();     //Même chose, on peut rajouter des lignes pour les nouvelle lettres en suivant la même logique
+        double puissance = obj["P"].toDouble(); //Même chose, on peut rajouter des lignes pour les nouvelle lettres en suivant la même logique
         int batterie = obj["B"].toInt();
 
-        QPair<double, int> valeur(puissance, batterie);
+        QPair<double, int> valeur(puissance, batterie); //On se retrouve obligé de passer par un QPair pour passer 2 variable à la prochaine méthode :(
 
         updateUIvalue(valeur);
         return valeur;
@@ -97,21 +100,23 @@ QPair<double, int> MainWindow::convertData(QJsonDocument doc)
 
 void MainWindow::updateUIvalue(QPair<double, int> valeur)
 {
-    qDebug() << "Mise à jour UI, veuillez patienter...";
-    ui->labelPower->setText(QString("Puissance : %1 W").arg(valeur.first));    //Ne pas oublier de rajouter des label dans la UI lorsqu'on rajoute des valeurs !!
+    qDebug() << "Mise à jour UI, veuillez patienter..."; //ça sert a rien, mais ça semble plus professionnel :/
+    ui->labelPower->setText(QString("Puissance : %1 W").arg(valeur.first)); //On met les valeur extracté de la trame dans l'IHM
     ui->labelBattery->setText(QString("Batterie : %1 %").arg(valeur.second));
+    //Ne pas oublier de rajouter des label dans la UI lorsqu'on rajoute des valeurs !!
 }
 
 void MainWindow::makeFile()
 {
     QFile File("data.json");
-    if (File.open(QIODevice::Truncate | QIODevice::ReadWrite))
+    if (File.open(QIODevice::Truncate | QIODevice::ReadWrite)) //Obligatoire pour écrire dans le fichier
     {
         QTextStream stream(&File);
-        qDebug() << "test n°x : " << stockage;
-        stream << QString(stockage);
-        qDebug() << "Fichier créé avec succès !";
-        qDebug() << "Chemin : " << QFileInfo(File).absoluteFilePath();
+        qDebug() << "test n°x : " << stockage; //On check dans la console si ce qui est écris dans le fichier est correct !
+        stream << QString(stockage); //La tramme est écris dans le fichier .JSON
+        qDebug() << "Fichier créé avec succès !"; //On confirme la réussite :D
+        qDebug() << "Chemin : " << QFileInfo(File).absoluteFilePath(); //On vérifie où le dossier est enregistrer au cas où on le perd
+        //Beaucoup trop de debug ici...
     }
     File.close();
 }

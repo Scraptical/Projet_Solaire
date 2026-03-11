@@ -2,6 +2,9 @@
 #define QT_CORE_LIB 1
 #define QT_GUI_LIB 1
 #define QT_SERIALPORT_LIB 1
+#define QT_TESTCASE_BUILDDIR "/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug"
+#define QT_TESTCASE_SOURCEDIR "/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3"
+#define QT_TESTLIB_LIB 1
 #define QT_WIDGETS_LIB 1
 #define SIZEOF_DPTR (sizeof(void*))
 #define _GNU_SOURCE 1

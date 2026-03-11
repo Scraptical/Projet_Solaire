@@ -213,7 +213,44 @@
 		"/usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortTargets.cmake",
 		"/usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortTargets-none.cmake",
 		"/usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortAdditionalTargetInfo.cmake",
-		"/usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortVersionlessTargets.cmake"
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortVersionlessTargets.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6Config.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6Targets.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtFeature.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtFeatureCommon.cmake",
+		"/usr/share/cmake-3.25/Modules/CheckCXXCompilerFlag.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake",
+		"/usr/share/cmake-3.25/Modules/FindThreads.cmake",
+		"/usr/share/cmake-3.25/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake",
+		"/usr/share/cmake-3.25/Modules/CheckCXXSourceCompiles.cmake",
+		"/usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.25/Modules/FindPackageMessage.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersion.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestConfig.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestDependencies.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestTargets.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestTargets-none.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestVersionlessTargets.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3",
 	"DEP_FILE" : "/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/deps",
@@ -230,7 +267,16 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_SERIALPORT_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_SERIALPORT_LIB",
+		"QT_TESTCASE_BUILDDIR=\"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug\"",
+		"QT_TESTCASE_SOURCEDIR=\"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3\"",
+		"QT_TESTLIB_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -246,6 +292,7 @@
 		"/usr/include/aarch64-linux-gnu/qt6/QtWidgets",
 		"/usr/include/aarch64-linux-gnu/qt6/QtGui",
 		"/usr/include/aarch64-linux-gnu/qt6/QtSerialPort",
+		"/usr/include/aarch64-linux-gnu/qt6/QtTest",
 		"/usr/include",
 		"/usr/include/c++/12",
 		"/usr/include/aarch64-linux-gnu/c++/12",
@@ -285,6 +332,11 @@
 	"SETTINGS_FILE" : "/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/CMakeFiles/UartTest_v3_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/UartUnitaire.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/main.cpp",
 			"MU",
