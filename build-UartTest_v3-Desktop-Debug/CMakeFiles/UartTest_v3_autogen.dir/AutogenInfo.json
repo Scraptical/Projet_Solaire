@@ -333,11 +333,6 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/UartUnitaire.cpp",
-			"MU",
-			null
-		],
-		[
 			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/main.cpp",
 			"MU",
 			null

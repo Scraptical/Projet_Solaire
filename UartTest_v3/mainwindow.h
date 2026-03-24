@@ -16,6 +16,13 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
+struct Valeurs
+{
+    double puissance = 0;
+    int batterie = 0;
+    int temp = 0;
+};
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -23,21 +30,21 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void setupSerial();
+    void verifSerial();
+    void readSerialData();
+    QJsonDocument trameISjson(const QByteArray& data);
+    Valeurs convertData(QJsonDocument doc);
+    void updateUIvalue(Valeurs);
+    void makeFile();
 
 private:
     Ui::MainWindow *ui;
     QSerialPort *serial;
     QByteArray serialBuffer;
     QString stockage;
-    //const QByteArray& data;
 
 private slots:
-    void setupSerial();
-    void verifSerial();
-    void readSerialData();
-    QJsonDocument trameISjson(const QByteArray& data);
-    QPair<double, int> convertData(QJsonDocument doc);
-    void updateUIvalue(QPair<double, int> valeur);
-    void makeFile();
+
 };
 #endif // MAINWINDOW_H

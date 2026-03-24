@@ -82,27 +82,27 @@ QJsonDocument MainWindow::trameISjson(const QByteArray &data)
         return doc;
 }
 
-QPair<double, int> MainWindow::convertData(QJsonDocument doc)
+Valeurs MainWindow::convertData(QJsonDocument doc)
 {
+    Valeurs valeurs;
     QJsonObject obj = doc.object(); //on transforme note ligne en obj
-    if(obj.contains("P") && obj.contains("B")) //On peut altérer cette ligne pour reconnaitre plusieurs lettres comme la tension (T) ou l'intensité (I)
+    if(obj.contains("P") && obj.contains("B") && obj.contains("T")) //On peut altérer cette ligne pour reconnaitre plusieurs lettres comme la tension (T) ou l'intensité (I)
     {
-        double puissance = obj["P"].toDouble(); //Même chose, on peut rajouter des lignes pour les nouvelle lettres en suivant la même logique
-        int batterie = obj["B"].toInt();
+        valeurs.puissance = obj["P"].toDouble(); //Même chose, on peut rajouter des lignes pour les nouvelle lettres en suivant la même logique
+        valeurs.batterie = obj["B"].toInt();
+        valeurs.temp = obj["T"].toInt();
 
-        QPair<double, int> valeur(puissance, batterie); //On se retrouve obligé de passer par un QPair pour passer 2 variable à la prochaine méthode :(
-
-        updateUIvalue(valeur);
-        return valeur;
+        updateUIvalue(valeurs);
+        return valeurs;
 
     }
 }
 
-void MainWindow::updateUIvalue(QPair<double, int> valeur)
+void MainWindow::updateUIvalue(Valeurs valeurs)
 {
     qDebug() << "Mise à jour UI, veuillez patienter..."; //ça sert a rien, mais ça semble plus professionnel :/
-    ui->labelPower->setText(QString("Puissance : %1 W").arg(valeur.first)); //On met les valeur extracté de la trame dans l'IHM
-    ui->labelBattery->setText(QString("Batterie : %1 %").arg(valeur.second));
+    ui->labelPower->setText(QString("Puissance : %1 W").arg(valeurs.puissance)); //On met les valeur extracté de la trame dans l'IHM
+    ui->labelBattery->setText(QString("Batterie : %1 %").arg(valeurs.batterie));
     //Ne pas oublier de rajouter des label dans la UI lorsqu'on rajoute des valeurs !!
 }
 
