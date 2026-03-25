@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>994</width>
+    <height>421</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,26 +15,88 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="2" column="0">
+    <item row="4" column="2">
+     <widget class="QLabel" name="labelTemp">
+      <property name="text">
+       <string>Temperature : -- °C</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="W">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 600 50pt &quot;URW Gothic [urw]&quot;;</string>
+      </property>
+      <property name="text">
+       <string>W</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QLabel" name="celcius">
+      <property name="font">
+       <font>
+        <family>URW Gothic [urw]</family>
+        <pointsize>60</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>°C</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="labelBattery">
+      <property name="text">
+       <string>Batterie : -- %</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLCDNumber" name="lcdBattery"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLCDNumber" name="lcdPower"/>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLabel" name="pourcent">
+      <property name="styleSheet">
+       <string notr="true">font: 600 60pt &quot;URW Gothic [urw]&quot;;</string>
+      </property>
+      <property name="text">
+       <string>%</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
      <widget class="QLabel" name="labelPower">
       <property name="text">
        <string>Puissance : -- W</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="0">
+    <item row="3" column="0">
      <widget class="QLabel" name="labelData">
       <property name="text">
        <string>TextLabel</string>
       </property>
      </widget>
     </item>
-    <item row="3" column="0">
-     <widget class="QLabel" name="labelBattery">
-      <property name="text">
-       <string>Batterie : -- %</string>
-      </property>
-     </widget>
+    <item row="5" column="2">
+     <widget class="QLCDNumber" name="lcdTemp"/>
     </item>
    </layout>
   </widget>
@@ -43,12 +105,36 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>994</width>
      <height>19</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <addaction name="actionAjuster_Luminosit"/>
+    <addaction name="actionSwitch_R_seaux"/>
+    <addaction name="actionStatistiques"/>
+   </widget>
+   <addaction name="menuOptions"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAjuster_Luminosit">
+   <property name="text">
+    <string>Ajuster Luminosité</string>
+   </property>
+  </action>
+  <action name="actionSwitch_R_seaux">
+   <property name="text">
+    <string>Switch Reseaux</string>
+   </property>
+  </action>
+  <action name="actionStatistiques">
+   <property name="text">
+    <string>Statistiques</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

@@ -3,6 +3,8 @@ UartTest_v3_autogen/timestamp: \
   /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/main.cpp \
   /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/mainwindow.cpp \
   /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/mainwindow.h \
+  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/options.cpp \
+  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/options.h \
   CMakeFiles/3.25.1/CMakeCXXCompiler.cmake \
   CMakeFiles/3.25.1/CMakeSystem.cmake \
   UartTest_v3_autogen/moc_predefs.h \
@@ -225,7 +227,9 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qserialport.h \
   /usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qserialportglobal.h \
   /usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qtserialportexports.h \
+  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QMainWindow \
+  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
@@ -597,4 +601,5 @@ UartTest_v3_autogen/timestamp: \
   /usr/share/cmake-3.25/Modules/Platform/Linux.cmake \
   /usr/share/cmake-3.25/Modules/Platform/UnixPaths.cmake \
   /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/mainwindow.ui \
+  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/options.ui \
   /usr/bin/cmake

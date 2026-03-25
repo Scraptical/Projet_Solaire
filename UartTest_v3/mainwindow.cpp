@@ -6,12 +6,15 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    options(new Options);
 
     //On commence le programme avec ces 2 méthode,
     //une pour mettre en place les information de communications,
     //et l'autre pour lancer la lecture de la tramme (et tous le programme)
     setupSerial();
     verifSerial();
+
+    connect(ui->actionAjuster_Luminosit,&QAction::triggered,this,&MainWindow::open_slider);
 
 }
 
@@ -60,7 +63,7 @@ void MainWindow::readSerialData()
         QByteArray ligne = serialBuffer.left(index);
         serialBuffer.remove(0, index + 1);
 
-        ui->labelData->setText(QString::fromUtf8(ligne)); //la ligne reçu est marqué sur l'interface
+        ui->labelData->setText("Trame reçu : " + QString::fromUtf8(ligne)); //la ligne reçu est marqué sur l'interface
 
         trameISjson(ligne);
         makeFile();
@@ -102,7 +105,11 @@ void MainWindow::updateUIvalue(Valeurs valeurs)
 {
     qDebug() << "Mise à jour UI, veuillez patienter..."; //ça sert a rien, mais ça semble plus professionnel :/
     ui->labelPower->setText(QString("Puissance : %1 W").arg(valeurs.puissance)); //On met les valeur extracté de la trame dans l'IHM
+    ui->lcdPower->display(valeurs.puissance);
     ui->labelBattery->setText(QString("Batterie : %1 %").arg(valeurs.batterie));
+    ui->lcdBattery->display(valeurs.batterie);
+    ui->labelTemp->setText(QString("Temperature : %1 °C").arg(valeurs.temp));
+    ui->lcdTemp->display(valeurs.temp);
     //Ne pas oublier de rajouter des label dans la UI lorsqu'on rajoute des valeurs !!
 }
 
@@ -119,4 +126,9 @@ void MainWindow::makeFile()
         //Beaucoup trop de debug ici...
     }
     File.close();
+}
+
+void MainWindow::open_slider()
+{
+    options->open();
 }

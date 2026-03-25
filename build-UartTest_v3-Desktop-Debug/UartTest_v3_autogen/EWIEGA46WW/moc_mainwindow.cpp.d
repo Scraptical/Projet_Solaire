@@ -1,5 +1,6 @@
 /home/admin/Documents/Qt\ test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/mainwindow.h \
   /home/admin/Documents/Qt\ test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/moc_predefs.h \
+  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/options.h \
   /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/aarch64-linux-gnu/bits/byteswap.h \
   /usr/include/aarch64-linux-gnu/bits/confname.h \
@@ -219,7 +220,9 @@
   /usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qserialport.h \
   /usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qserialportglobal.h \
   /usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qtserialportexports.h \
+  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QMainWindow \
+  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \

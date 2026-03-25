@@ -1,83 +1,49 @@
 # ninja log v5
-14	3107	1773326636935186862	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-14	3107	1773326636935186862	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-14	3107	1773326636935186862	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-14	3107	1773326636935186862	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-12102	13167	1773247351722229679	UartTest_v3	3402b18f539f8968
-3109	20414	1773326654222737645	CMakeFiles/UartTest_v3.dir/main.cpp.o	808cdfff8860d909
-3109	21271	1773326655102714732	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
-3108	20739	1773326654570728584	CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o	8fb114bba67d74d2
-22	181	1773327181947893646	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-22	181	1773327181947893646	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-22	181	1773327181947893646	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-22	181	1773327181947893646	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-184	12163	1773327193899993950	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
-12164	13137	1773327194888001865	UartTest_v3	3402b18f539f8968
-26	1205	1774341189282364211	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-26	1205	1774341189282364211	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-26	1205	1774341189282364211	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-26	1205	1774341189282364211	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-12	1232	1774341284432812441	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-12	1232	1774341284432812441	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-12	1232	1774341284432812441	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-12	1232	1774341284432812441	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-1233	19328	1774341302520522348	CMakeFiles/UartTest_v3.dir/main.cpp.o	808cdfff8860d909
-1232	19330	1774341302512522476	CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o	8fb114bba67d74d2
-1234	19907	1774341303116512812	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
-19908	21088	1774341304312493681	UartTest_v3	3402b18f539f8968
-18	223	1774343903765346064	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-18	223	1774343903765346064	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-18	223	1774343903765346064	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-18	223	1774343903765346064	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-225	12239	1774343915752787582	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
-12240	13334	1774343916864735699	UartTest_v3	3402b18f539f8968
-12	1264	1774343992521177576	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-12	1264	1774343992521177576	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-12	1264	1774343992521177576	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-12	1264	1774343992521177576	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-1266	15122	1774344006388520068	CMakeFiles/UartTest_v3.dir/main.cpp.o	808cdfff8860d909
-1265	15356	1774344006620509056	CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o	8fb114bba67d74d2
-1267	16077	1774344007340474879	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
-16078	17113	1774344008392424934	UartTest_v3	3402b18f539f8968
-10	1076	1774345094318679715	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-10	1076	1774345094318679715	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-10	1076	1774345094318679715	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-10	1076	1774345094318679715	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-1078	14957	1774345108206161375	CMakeFiles/UartTest_v3.dir/main.cpp.o	808cdfff8860d909
-1077	15293	1774345108534149106	CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o	8fb114bba67d74d2
-1079	15932	1774345109178125013	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
-15932	16951	1774345110214086244	UartTest_v3	3402b18f539f8968
-17	1447	1774345519941991477	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-17	1447	1774345519941991477	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-17	1447	1774345519941991477	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-17	1447	1774345519941991477	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-1448	15139	1774345533641433399	CMakeFiles/UartTest_v3.dir/main.cpp.o	808cdfff8860d909
-1448	15356	1774345533857424592	CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o	8fb114bba67d74d2
-15	250	1774345551468705744	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-15	250	1774345551468705744	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-15	250	1774345551468705744	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-15	250	1774345551468705744	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-15	282	1774345566428093943	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-15	282	1774345566428093943	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-15	282	1774345566428093943	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-15	282	1774345566428093943	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-13	259	1774345632857364714	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-13	259	1774345632857364714	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-13	259	1774345632857364714	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-13	259	1774345632857364714	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-265	12017	1774345644592880575	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
-12018	13067	1774345645656836654	UartTest_v3	3402b18f539f8968
-12	1225	1774345800626394788	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-12	1225	1774345800626394788	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-12	1225	1774345800626394788	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-12	1225	1774345800626394788	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-1226	15186	1774345814573811112	CMakeFiles/UartTest_v3.dir/main.cpp.o	808cdfff8860d909
 1226	15893	1774345815301780632	CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o	8fb114bba67d74d2
-1227	16112	1774345815517771588	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
-16112	17203	1774345816625725194	UartTest_v3	3402b18f539f8968
-10	174	1774346110800640894	UartTest_v3_autogen/timestamp	3d050e169925bb5c
-10	174	1774346110800640894	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-10	174	1774346110800640894	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
-10	174	1774346110800640894	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
-176	12353	1774346122953846590	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
-12353	13399	1774346124017950437	UartTest_v3	3402b18f539f8968
+158	10453	1774452230425471975	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
+1226	15186	1774345814573811112	CMakeFiles/UartTest_v3.dir/main.cpp.o	808cdfff8860d909
+73	90	0	clean	a31eedcededa8236
+10453	11394	1774452231385456135	UartTest_v3	3402b18f539f8968
+11	156	1774452220161641182	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+11	156	1774452220161641182	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
+11	156	1774452220161641182	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+11	156	1774452220161641182	UartTest_v3_autogen/timestamp	3d050e169925bb5c
+6	72	0	CMakeFiles/clean.additional	ef993b15a92b8f11
+8	1759	1774452558751943216	UartTest_v3_autogen/timestamp	3d050e169925bb5c
+8	1759	1774452558751943216	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+8	1759	1774452558751943216	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
+8	1759	1774452558751943216	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+1761	13002	1774452570007750497	CMakeFiles/UartTest_v3.dir/options.cpp.o	c275a1c38cd968ae
+1760	15067	1774452572071715140	CMakeFiles/UartTest_v3.dir/main.cpp.o	808cdfff8860d909
+1759	15609	1774452572611705889	CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o	8fb114bba67d74d2
+13	260	1774452584719498356	UartTest_v3_autogen/timestamp	3d050e169925bb5c
+13	260	1774452584719498356	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+13	260	1774452584719498356	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
+13	260	1774452584719498356	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+268	10787	1774452595223318165	CMakeFiles/UartTest_v3.dir/options.cpp.o	c275a1c38cd968ae
+14	317	1774452606335127395	UartTest_v3_autogen/timestamp	3d050e169925bb5c
+14	317	1774452606335127395	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+14	317	1774452606335127395	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
+14	317	1774452606335127395	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+325	10547	1774452616538952080	CMakeFiles/UartTest_v3.dir/options.cpp.o	c275a1c38cd968ae
+320	13394	1774452619382903196	CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o	1d175c31d263456d
+13395	14472	1774452620478884354	UartTest_v3	c94de71fa5b1f036
+9	1080	1774454254785239967	UartTest_v3_autogen/timestamp	3d050e169925bb5c
+9	1080	1774454254785239967	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+9	1080	1774454254785239967	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
+9	1080	1774454254785239967	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+1082	16386	1774454270056995681	CMakeFiles/UartTest_v3.dir/options.cpp.o	c275a1c38cd968ae
+1081	18537	1774454272240960730	CMakeFiles/UartTest_v3.dir/main.cpp.o	808cdfff8860d909
+1080	19786	1774454273496940627	CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o	8fb114bba67d74d2
+21	251	1774454288216704933	UartTest_v3_autogen/timestamp	3d050e169925bb5c
+21	251	1774454288216704933	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+21	251	1774454288216704933	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
+21	251	1774454288216704933	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+255	11403	1774454299340526693	CMakeFiles/UartTest_v3.dir/options.cpp.o	c275a1c38cd968ae
+13	1591	1774454336295933821	UartTest_v3_autogen/timestamp	3d050e169925bb5c
+13	1591	1774454336295933821	UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+13	1591	1774454336295933821	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/timestamp	3d050e169925bb5c
+13	1591	1774454336295933821	/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/mocs_compilation.cpp	3d050e169925bb5c
+1598	17417	1774454352135679376	CMakeFiles/UartTest_v3.dir/options.cpp.o	c275a1c38cd968ae
+1593	18784	1774454353499657457	CMakeFiles/UartTest_v3.dir/main.cpp.o	808cdfff8860d909
+1592	18880	1774454353595655914	CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o	8fb114bba67d74d2

@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "options.h"
+
 #include <QMainWindow>
 #include <QSerialPort>
 #include <QJsonDocument>
@@ -38,11 +40,14 @@ public:
     void updateUIvalue(Valeurs);
     void makeFile();
 
+    void open_slider();
+
 private:
     Ui::MainWindow *ui;
     QSerialPort *serial;
     QByteArray serialBuffer;
     QString stockage;
+    Options *options;
 
 private slots:
 
