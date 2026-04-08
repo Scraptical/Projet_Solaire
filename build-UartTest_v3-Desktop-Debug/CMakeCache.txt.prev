@@ -331,6 +331,9 @@ Qt6Widgets_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt6
 
+//The directory containing a CMake configuration file for Qt{QT_VERSION_MAJOR}.
+Qt{QT_VERSION_MAJOR}_DIR:PATH=Qt{QT_VERSION_MAJOR}_DIR-NOTFOUND
+
 //Value Computed by CMake
 UartTest_v3_BINARY_DIR:STATIC=/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug
 

@@ -1,12 +1,12 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "jaugeeclair.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+    , ui(new Ui::MainWindow), ajustlum(new Ajustlum)
 {
     ui->setupUi(this);
-    options(new Options);
 
     //On commence le programme avec ces 2 méthode,
     //une pour mettre en place les information de communications,
@@ -15,6 +15,9 @@ MainWindow::MainWindow(QWidget *parent)
     verifSerial();
 
     connect(ui->actionAjuster_Luminosit,&QAction::triggered,this,&MainWindow::open_slider);
+
+    gauge = new JaugeEclair(this);
+    gauge->setGeometry(50, 50, 150, 200);
 
 }
 
@@ -106,6 +109,8 @@ void MainWindow::updateUIvalue(Valeurs valeurs)
     qDebug() << "Mise à jour UI, veuillez patienter..."; //ça sert a rien, mais ça semble plus professionnel :/
     ui->labelPower->setText(QString("Puissance : %1 W").arg(valeurs.puissance)); //On met les valeur extracté de la trame dans l'IHM
     ui->lcdPower->display(valeurs.puissance);
+    gauge->setValue(70);
+    ui->PowerJauge->setValue(75);
     ui->labelBattery->setText(QString("Batterie : %1 %").arg(valeurs.batterie));
     ui->lcdBattery->display(valeurs.batterie);
     ui->labelTemp->setText(QString("Temperature : %1 °C").arg(valeurs.temp));
@@ -130,5 +135,5 @@ void MainWindow::makeFile()
 
 void MainWindow::open_slider()
 {
-    options->open();
+    ajustlum->open();
 }

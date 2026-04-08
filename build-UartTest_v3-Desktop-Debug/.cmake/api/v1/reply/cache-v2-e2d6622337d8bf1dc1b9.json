@@ -6362,6 +6362,18 @@
 			"value" : "/usr/lib/aarch64-linux-gnu/cmake/Qt6"
 		},
 		{
+			"name" : "Qt{QT_VERSION_MAJOR}_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt{QT_VERSION_MAJOR}."
+				}
+			],
+			"type" : "PATH",
+			"value" : "Qt{QT_VERSION_MAJOR}_DIR-NOTFOUND"
+		},
+		{
 			"name" : "UartTest_v3_BINARY_DIR",
 			"properties" : 
 			[

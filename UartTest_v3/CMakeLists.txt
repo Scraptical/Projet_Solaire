@@ -18,9 +18,14 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        options.h
-        options.cpp
-        options.ui
+        ajustlum.h
+        ajustlum.cpp
+        ajustlum.ui
+        switch.h
+        switch.cpp
+        switch.ui
+        jaugeeclair.cpp
+        jaugeeclair.h
         #UartUnitaire.cpp
 )
 

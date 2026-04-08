@@ -1,7 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "options.h"
+#include "ajustlum.h"
+#include "jaugeeclair.h"
 
 #include <QMainWindow>
 #include <QSerialPort>
@@ -13,6 +14,7 @@
 #include <QString>
 #include <QTextStream>
 #include <QPair>
+#include <QPainter>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -47,7 +49,8 @@ private:
     QSerialPort *serial;
     QByteArray serialBuffer;
     QString stockage;
-    Options *options;
+    Ajustlum *ajustlum;
+    JaugeEclair *gauge;
 
 private slots:
 

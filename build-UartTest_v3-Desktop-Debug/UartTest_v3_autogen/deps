@@ -1,10 +1,14 @@
 UartTest_v3_autogen/timestamp: \
 	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/CMakeLists.txt \
+	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/ajustlum.cpp \
+	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/ajustlum.h \
+	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/jaugeeclair.cpp \
+	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/jaugeeclair.h \
 	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/main.cpp \
 	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/mainwindow.cpp \
 	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/mainwindow.h \
-	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/options.cpp \
-	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/options.h \
+	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/switch.cpp \
+	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/switch.h \
 	/home/admin/Documents/Qt\ test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/CMakeFiles/3.25.1/CMakeCXXCompiler.cmake \
 	/home/admin/Documents/Qt\ test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/CMakeFiles/3.25.1/CMakeSystem.cmake \
 	/home/admin/Documents/Qt\ test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/moc_predefs.h \
@@ -199,6 +203,8 @@ UartTest_v3_autogen/timestamp: \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qvariant.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qversiontagging.h \
+	/usr/include/aarch64-linux-gnu/qt6/QtGui/QPainter \
+	/usr/include/aarch64-linux-gnu/qt6/QtGui/QPolygon \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qaction.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qbitmap.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qbrush.h \
@@ -211,13 +217,16 @@ UartTest_v3_autogen/timestamp: \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qimage.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qkeysequence.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qpaintdevice.h \
+	/usr/include/aarch64-linux-gnu/qt6/QtGui/qpainter.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qpalette.h \
+	/usr/include/aarch64-linux-gnu/qt6/QtGui/qpen.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qpixelformat.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qpixmap.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qpolygon.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qregion.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qrgb.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qrgba64.h \
+	/usr/include/aarch64-linux-gnu/qt6/QtGui/qtextoption.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qtgui-config.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qtguiexports.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtGui/qtguiglobal.h \
@@ -228,8 +237,12 @@ UartTest_v3_autogen/timestamp: \
 	/usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qserialportglobal.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qtserialportexports.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
+	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QLCDNumber \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QMainWindow \
+	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QWidget \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
+	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/qframe.h \
+	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlcdnumber.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
@@ -600,6 +613,7 @@ UartTest_v3_autogen/timestamp: \
 	/usr/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake \
 	/usr/share/cmake-3.25/Modules/Platform/Linux.cmake \
 	/usr/share/cmake-3.25/Modules/Platform/UnixPaths.cmake \
+	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/ajustlum.ui \
 	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/mainwindow.ui \
-	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/options.ui \
+	/home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/switch.ui \
 	/usr/bin/cmake

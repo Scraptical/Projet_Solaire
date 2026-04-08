@@ -258,15 +258,27 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/ajustlum.h",
+			"MU",
+			"EWIEGA46WW/moc_ajustlum.cpp",
+			null
+		],
+		[
+			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/jaugeeclair.h",
+			"MU",
+			"EWIEGA46WW/moc_jaugeeclair.cpp",
+			null
+		],
+		[
 			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/options.h",
+			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/switch.h",
 			"MU",
-			"EWIEGA46WW/moc_options.cpp",
+			"EWIEGA46WW/moc_switch.cpp",
 			null
 		]
 	],
@@ -339,6 +351,16 @@
 	"SOURCES" : 
 	[
 		[
+			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/ajustlum.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/jaugeeclair.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/main.cpp",
 			"MU",
 			null
@@ -349,7 +371,7 @@
 			null
 		],
 		[
-			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/options.cpp",
+			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/switch.cpp",
 			"MU",
 			null
 		]
