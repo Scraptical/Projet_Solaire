@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include "ajustlum.h"
+#include "switch.h"
+
 #include "jaugeeclair.h"
 
 #include <QMainWindow>
@@ -43,13 +45,17 @@ public:
     void makeFile();
 
     void open_slider();
+    void open_reseaux();
 
 private:
     Ui::MainWindow *ui;
     QSerialPort *serial;
     QByteArray serialBuffer;
     QString stockage;
+
     Ajustlum *ajustlum;
+    Switch *switche;
+
     JaugeEclair *gauge;
 
 private slots:

@@ -2,6 +2,7 @@
   /home/admin/Documents/Qt\ test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/moc_predefs.h \
   /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/ajustlum.h \
   /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/jaugeeclair.h \
+  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/switch.h \
   /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/aarch64-linux-gnu/bits/byteswap.h \
   /usr/include/aarch64-linux-gnu/bits/confname.h \

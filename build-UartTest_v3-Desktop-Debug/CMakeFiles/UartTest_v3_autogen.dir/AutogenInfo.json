@@ -304,6 +304,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3",
 		"/usr/include/aarch64-linux-gnu/qt6/QtCore",
 		"/usr/include/aarch64-linux-gnu/qt6",
 		"/usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++",

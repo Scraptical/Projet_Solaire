@@ -10,7 +10,7 @@ JaugeEclair::JaugeEclair(QWidget *parent)
 
 void JaugeEclair::setValue(double v)
 {
-    value = qBound(0.0, v, 100.0);
+    value = qBound(0.0, v, 1000.0);
     update();
 }
 
@@ -50,6 +50,8 @@ void JaugeEclair::paintEvent(QPaintEvent *)
         color = Qt::red;
     else if(value < 70)
         color = Qt::yellow;
+    else if(value > 150)
+        color = Qt::darkRed;
     else
         color = Qt::green;
 

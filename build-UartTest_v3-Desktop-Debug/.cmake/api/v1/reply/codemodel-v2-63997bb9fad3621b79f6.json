@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-6ea01d76887cc6510945.json",
+					"jsonFile" : "directory-.-Debug-ed16da45a3a551aacd36.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "UartTest_v3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-UartTest_v3-Debug-e7da64f13ded8ba5fb56.json",
+					"jsonFile" : "target-UartTest_v3-Debug-4bef4e96565e93fa0d41.json",
 					"name" : "UartTest_v3",
 					"projectIndex" : 0
 				},

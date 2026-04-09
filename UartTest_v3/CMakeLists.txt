@@ -29,6 +29,8 @@ set(PROJECT_SOURCES
         #UartUnitaire.cpp
 )
 
+# include_directories(${CMAKE_CURRENT_SOURCE_DIR}/home/admin/Documents/'Qt test'/Projet_Solaire/UartTest_v3/jaugeeclair.h)
+
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(UartTest_v3
         MANUAL_FINALIZATION
@@ -51,6 +53,8 @@ else()
         )
     endif()
 endif()
+
+target_include_directories(UartTest_v3 PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
 target_link_libraries(UartTest_v3 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::SerialPort Qt${QT_VERSION_MAJOR}::Test)
 

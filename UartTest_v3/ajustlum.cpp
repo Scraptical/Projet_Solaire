@@ -7,6 +7,8 @@ Ajustlum::Ajustlum(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    ui->horizontalSlider->setStyleSheet("background-color: rgb(255,255,255)");
+
     connect(ui->horizontalSlider,SIGNAL(sliderMoved(int)),ui->lcdNumber,SLOT(display(int)));
 }
 

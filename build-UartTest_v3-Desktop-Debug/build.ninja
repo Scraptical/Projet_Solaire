@@ -53,7 +53,7 @@ build CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o: CXX
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_TESTCASE_BUILDDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug\"" -DQT_TESTCASE_SOURCEDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3\"" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen/mocs_compilation.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
+  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -I"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
   OBJECT_DIR = CMakeFiles/UartTest_v3.dir
   OBJECT_FILE_DIR = CMakeFiles/UartTest_v3.dir/UartTest_v3_autogen
 
@@ -61,7 +61,7 @@ build CMakeFiles/UartTest_v3.dir/main.cpp.o: CXX_COMPILER__UartTest_v3_Debug /ho
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_TESTCASE_BUILDDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug\"" -DQT_TESTCASE_SOURCEDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3\"" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/UartTest_v3.dir/main.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
+  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -I"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
   OBJECT_DIR = CMakeFiles/UartTest_v3.dir
   OBJECT_FILE_DIR = CMakeFiles/UartTest_v3.dir
 
@@ -69,7 +69,7 @@ build CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o: CXX_COMPILER__UartTest_v3_Deb
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_TESTCASE_BUILDDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug\"" -DQT_TESTCASE_SOURCEDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3\"" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/UartTest_v3.dir/mainwindow.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
+  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -I"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
   OBJECT_DIR = CMakeFiles/UartTest_v3.dir
   OBJECT_FILE_DIR = CMakeFiles/UartTest_v3.dir
 
@@ -77,7 +77,7 @@ build CMakeFiles/UartTest_v3.dir/ajustlum.cpp.o: CXX_COMPILER__UartTest_v3_Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_TESTCASE_BUILDDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug\"" -DQT_TESTCASE_SOURCEDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3\"" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/UartTest_v3.dir/ajustlum.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
+  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -I"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
   OBJECT_DIR = CMakeFiles/UartTest_v3.dir
   OBJECT_FILE_DIR = CMakeFiles/UartTest_v3.dir
 
@@ -85,7 +85,7 @@ build CMakeFiles/UartTest_v3.dir/switch.cpp.o: CXX_COMPILER__UartTest_v3_Debug /
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_TESTCASE_BUILDDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug\"" -DQT_TESTCASE_SOURCEDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3\"" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/UartTest_v3.dir/switch.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
+  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -I"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
   OBJECT_DIR = CMakeFiles/UartTest_v3.dir
   OBJECT_FILE_DIR = CMakeFiles/UartTest_v3.dir
 
@@ -93,7 +93,7 @@ build CMakeFiles/UartTest_v3.dir/jaugeeclair.cpp.o: CXX_COMPILER__UartTest_v3_De
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_TESTCASE_BUILDDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug\"" -DQT_TESTCASE_SOURCEDIR="\"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3\"" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/UartTest_v3.dir/jaugeeclair.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
+  INCLUDES = -I"/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include" -I"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3" -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtSerialPort -isystem /usr/include/aarch64-linux-gnu/qt6/QtTest
   OBJECT_DIR = CMakeFiles/UartTest_v3.dir
   OBJECT_FILE_DIR = CMakeFiles/UartTest_v3.dir
 
@@ -205,7 +205,7 @@ build UartTest_v3_autogen/timestamp UartTest_v3_autogen/mocs_compilation.cpp | $
 #############################################
 # Phony custom command for CMakeFiles/UartTest_v3_autogen_timestamp_deps
 
-build CMakeFiles/UartTest_v3_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/UartTest_v3_autogen_timestamp_deps: phony /usr/lib/aarch64-linux-gnu/libQt6SerialPort.so.6.4.2 /usr/lib/aarch64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/aarch64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/qt6/libexec/uic /usr/lib/qt6/libexec/moc /usr/lib/aarch64-linux-gnu/libQt6Test.so.6.4.2
+build CMakeFiles/UartTest_v3_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/UartTest_v3_autogen_timestamp_deps: phony /usr/lib/aarch64-linux-gnu/libQt6Test.so.6.4.2 /usr/lib/aarch64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/aarch64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/qt6/libexec/uic /usr/lib/qt6/libexec/moc /usr/lib/aarch64-linux-gnu/libQt6SerialPort.so.6.4.2
 
 
 #############################################

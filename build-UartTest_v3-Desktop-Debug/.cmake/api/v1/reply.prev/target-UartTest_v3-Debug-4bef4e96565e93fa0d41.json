@@ -22,7 +22,8 @@
 			"set_property",
 			"find_dependency",
 			"_qt_internal_find_third_party_dependencies",
-			"_qt_internal_find_qt_dependencies"
+			"_qt_internal_find_qt_dependencies",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -47,7 +48,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 33,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -71,13 +72,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 65,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 55,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
@@ -207,6 +208,12 @@
 				"file" : 0,
 				"line" : 549,
 				"parent" : 2
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
 			}
 		]
 	},
@@ -258,6 +265,10 @@
 				{
 					"backtrace" : 0,
 					"path" : "/home/admin/Documents/Qt test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3"
 				},
 				{
 					"backtrace" : 30,
