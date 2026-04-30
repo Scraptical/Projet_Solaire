@@ -4,7 +4,7 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow), ajustlum(new Ajustlum), switche(new Switch)
+    , ui(new Ui::MainWindow), ajustlum(new Ajustlum), switche(new Switch), timer(new QTimer)
 {
     ui->setupUi(this);
 
@@ -19,9 +19,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->PowerJauge->setValue(0);
 
-   // gauge = new JaugeEclair(this);
-   // gauge->setGeometry(50, 50, 150, 200);
-
+    connect(switche,&Switch::activateSerialWrite,this,&MainWindow::SendTrame_etat);
 }
 
 MainWindow::~MainWindow()
@@ -45,7 +43,7 @@ void MainWindow::setupSerial()
 void MainWindow::verifSerial()
 {
     //Vérification que l'UART fonctionne
-    if(serial->open(QIODevice::ReadOnly))
+    if(serial->open(QIODevice::ReadWrite))
     {
         ui->labelData->setText("UART connecté"); //Connexion réussit
     }
@@ -143,4 +141,16 @@ void MainWindow::open_slider()
 void MainWindow::open_reseaux()
 {
     switche->open();
+}
+
+QString MainWindow::getState()
+{
+    //etat = switche->get_switchState();     ICI PROBLEME
+    //qDebug() << "etat : " << etat;
+}
+
+void MainWindow::SendTrame_etat()
+{
+    getState();
+    serial->write(etat.toUtf8());
 }

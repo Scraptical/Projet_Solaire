@@ -106,6 +106,8 @@ UartTest_v3_autogen/timestamp: \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/QPair \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/QString \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/QTextStream \
+	/usr/include/aarch64-linux-gnu/qt6/QtCore/QTime \
+	/usr/include/aarch64-linux-gnu/qt6/QtCore/QTimer \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qalgorithms.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qanystringview.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -113,6 +115,7 @@ UartTest_v3_autogen/timestamp: \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qarraydatapointer.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qatomic.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qbasicatomic.h \
+	/usr/include/aarch64-linux-gnu/qt6/QtCore/qbasictimer.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qbindingstorage.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearray.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearrayalgorithms.h \
@@ -195,6 +198,7 @@ UartTest_v3_autogen/timestamp: \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qtcore-config.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qtcoreexports.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qtextstream.h \
+	/usr/include/aarch64-linux-gnu/qt6/QtCore/qtimer.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qtmetamacros.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qtypeinfo.h \
 	/usr/include/aarch64-linux-gnu/qt6/QtCore/qurl.h \

@@ -17,6 +17,8 @@
 #include <QTextStream>
 #include <QPair>
 #include <QPainter>
+#include <QTime>
+#include <QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -46,6 +48,8 @@ public:
 
     void open_slider();
     void open_reseaux();
+    QString getState();
+    void SendTrame_etat();
 
 private:
     Ui::MainWindow *ui;
@@ -57,6 +61,9 @@ private:
     Switch *switche;
 
     JaugeEclair *gauge;
+
+    QString etat;
+    QTimer *timer;
 
 private slots:
 

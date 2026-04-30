@@ -7,14 +7,36 @@ Switch::Switch(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    ui->checkBox->setStyleSheet("background-color: rgb(255,255,255)");
-    ui->checkBox_2->setStyleSheet("background-color: rgb(255,255,255)");
+    ui->RadioRes->setStyleSheet("background-color: rgb(255,255,255)");
+    ui->RadioBat->setStyleSheet("background-color: rgb(255,255,255)");
+    ui->RadioRes->setChecked(1);
+    ui->RadioBat->setChecked(0);
+    state = "EDF\n";
 
-    connect(ui->checkBox,&QCheckBox::clicked,ui->checkBox_2,&QCheckBox::setDisabled);
-    connect(ui->checkBox_2,&QCheckBox::clicked,ui->checkBox,&QCheckBox::setDisabled);
+    connect(ui->RadioRes,&QRadioButton::clicked,this,&Switch::UncheckBat);
+    connect(ui->RadioBat,&QRadioButton::clicked,this,&Switch::UncheckRes);
 }
 
 Switch::~Switch()
 {
     delete ui;
+}
+
+void Switch::UncheckBat()
+{
+    qDebug() << "Mode Reseau EDF";
+    state = "EDF\n";
+    emit activateSerialWrite();
+}
+
+void Switch::UncheckRes()
+{
+    qDebug() << "Mode Batterie";
+    state = "BAT\n";
+    emit activateSerialWrite();
+}
+
+QString Switch::get_switchState()
+{
+    return state;
 }

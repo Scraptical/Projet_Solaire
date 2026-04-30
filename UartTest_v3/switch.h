@@ -14,9 +14,16 @@ class Switch : public QDialog
 public:
     explicit Switch(QWidget *parent = nullptr);
     ~Switch();
+    void UncheckBat();
+    void UncheckRes();
+    QString get_switchState();
 
 private:
     Ui::Switch *ui;
+    QString state;
+
+signals:
+    void activateSerialWrite();
 };
 
 #endif // SWITCH_H
