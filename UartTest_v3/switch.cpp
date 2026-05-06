@@ -11,7 +11,7 @@ Switch::Switch(QWidget *parent) :
     ui->RadioBat->setStyleSheet("background-color: rgb(255,255,255)");
     ui->RadioRes->setChecked(1);
     ui->RadioBat->setChecked(0);
-    state = "EDF\n";
+    stateSwitch = "EDF\n";
 
     connect(ui->RadioRes,&QRadioButton::clicked,this,&Switch::UncheckBat);
     connect(ui->RadioBat,&QRadioButton::clicked,this,&Switch::UncheckRes);
@@ -25,18 +25,18 @@ Switch::~Switch()
 void Switch::UncheckBat()
 {
     qDebug() << "Mode Reseau EDF";
-    state = "EDF\n";
-    emit activateSerialWrite();
+    stateSwitch = "EDF\r";
+    emit activateSerialWrite_Switch();
 }
 
 void Switch::UncheckRes()
 {
     qDebug() << "Mode Batterie";
-    state = "BAT\n";
-    emit activateSerialWrite();
+    stateSwitch = "BAT\r";
+    emit activateSerialWrite_Switch();
 }
 
 QString Switch::get_switchState()
 {
-    return state;
+    return stateSwitch;
 }

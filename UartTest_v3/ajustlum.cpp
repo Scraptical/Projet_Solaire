@@ -11,7 +11,8 @@ Ajustlum::Ajustlum(QWidget *parent) :
     ui->horizontalSlider->setValue(50);
     ui->lcdNumber->display(50);
 
-    connect(ui->horizontalSlider,SIGNAL(sliderMoved(int)),ui->lcdNumber,SLOT(display(int)));
+    connect(ui->horizontalSlider,&QSlider::sliderReleased,this,&Ajustlum::displayLum);
+
 }
 
 Ajustlum::~Ajustlum()
@@ -19,4 +20,14 @@ Ajustlum::~Ajustlum()
     delete ui;
 }
 
+void Ajustlum::displayLum()
+{
+    ui->lcdNumber->display(ui->horizontalSlider->value());
+    stateSlider = QString::number(ui->horizontalSlider->value()) + "\r";
+    emit activateSerialWrite_Slider();
+}
 
+QString Ajustlum::get_sliderState()
+{
+    return stateSlider;
+}

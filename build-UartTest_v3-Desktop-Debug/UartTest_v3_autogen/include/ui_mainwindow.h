@@ -169,7 +169,6 @@ public:
         menubar->addAction(menuOptions->menuAction());
         menuOptions->addAction(actionAjuster_Luminosit);
         menuOptions->addAction(actionSwitch_Reseaux);
-        menuOptions->addAction(actionStatistiques);
 
         retranslateUi(MainWindow);
 

@@ -4,7 +4,7 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow), ajustlum(new Ajustlum), switche(new Switch), timer(new QTimer)
+    , ui(new Ui::MainWindow), ajustlum(new Ajustlum), switche(new Switch)
 {
     ui->setupUi(this);
 
@@ -19,7 +19,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->PowerJauge->setValue(0);
 
-    connect(switche,&Switch::activateSerialWrite,this,&MainWindow::SendTrame_etat);
+    connect(switche,&Switch::activateSerialWrite_Switch,this,&MainWindow::SendTrame_etatSwitch);
+    connect(ajustlum,&Ajustlum::activateSerialWrite_Slider,this,&MainWindow::SendTrame_etatSlider);
 }
 
 MainWindow::~MainWindow()
@@ -143,14 +144,29 @@ void MainWindow::open_reseaux()
     switche->open();
 }
 
-QString MainWindow::getState()
+void MainWindow::getState_switch()
 {
-    //etat = switche->get_switchState();     ICI PROBLEME
-    //qDebug() << "etat : " << etat;
+    etatSwitch = switche->get_switchState();
+    qDebug() << "etat : " << etatSwitch;
 }
 
-void MainWindow::SendTrame_etat()
+void MainWindow::SendTrame_etatSwitch()
 {
-    getState();
-    serial->write(etat.toUtf8());
+    getState_switch();
+    serial->write(etatSwitch.toUtf8());
+    qDebug() << "transaction alimentation terminé";
 }
+
+void MainWindow::getState_slider()
+{
+    etatSlider = ajustlum->get_sliderState();
+    qDebug() << "etat : " << etatSlider;
+}
+
+void MainWindow::SendTrame_etatSlider()
+{
+    getState_slider();
+    serial->write(etatSlider.toUtf8());
+    qDebug() << "transaction luminosité terminé";
+}
+

@@ -15,9 +15,16 @@ class Ajustlum : public QDialog
 public:
     explicit Ajustlum(QWidget *parent = nullptr);
     ~Ajustlum();
+    void displayLum();
+    QString get_sliderState();
 
 private:
     Ui::Ajustlum *ui;
+    QString stateSlider;
+    int valueSlider;
+
+signals:
+    void activateSerialWrite_Slider();
 };
 
 #endif // AJUSTLUM_H

@@ -28,7 +28,7 @@ namespace {
 struct qt_meta_stringdata_Switch_t {
     uint offsetsAndSizes[6];
     char stringdata0[7];
-    char stringdata1[20];
+    char stringdata1[27];
     char stringdata2[1];
 };
 #define QT_MOC_LITERAL(ofs, len) \
@@ -36,11 +36,11 @@ struct qt_meta_stringdata_Switch_t {
 Q_CONSTINIT static const qt_meta_stringdata_Switch_t qt_meta_stringdata_Switch = {
     {
         QT_MOC_LITERAL(0, 6),  // "Switch"
-        QT_MOC_LITERAL(7, 19),  // "activateSerialWrite"
-        QT_MOC_LITERAL(27, 0)   // ""
+        QT_MOC_LITERAL(7, 26),  // "activateSerialWrite_Switch"
+        QT_MOC_LITERAL(34, 0)   // ""
     },
     "Switch",
-    "activateSerialWrite",
+    "activateSerialWrite_Switch",
     ""
 };
 #undef QT_MOC_LITERAL
@@ -77,7 +77,7 @@ Q_CONSTINIT const QMetaObject Switch::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_Switch_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<Switch, std::true_type>,
-        // method 'activateSerialWrite'
+        // method 'activateSerialWrite_Switch'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -89,14 +89,14 @@ void Switch::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         auto *_t = static_cast<Switch *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->activateSerialWrite(); break;
+        case 0: _t->activateSerialWrite_Switch(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
             using _t = void (Switch::*)();
-            if (_t _q_method = &Switch::activateSerialWrite; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Switch::activateSerialWrite_Switch; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
@@ -136,7 +136,7 @@ int Switch::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void Switch::activateSerialWrite()
+void Switch::activateSerialWrite_Switch()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }

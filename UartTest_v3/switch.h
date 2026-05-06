@@ -20,10 +20,10 @@ public:
 
 private:
     Ui::Switch *ui;
-    QString state;
+    QString stateSwitch;
 
 signals:
-    void activateSerialWrite();
+    void activateSerialWrite_Switch();
 };
 
 #endif // SWITCH_H

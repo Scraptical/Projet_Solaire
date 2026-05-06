@@ -165,7 +165,6 @@ color: rgb(255,255,255)</string>
     </property>
     <addaction name="actionAjuster_Luminosit"/>
     <addaction name="actionSwitch_Reseaux"/>
-    <addaction name="actionStatistiques"/>
    </widget>
    <addaction name="menuOptions"/>
   </widget>
