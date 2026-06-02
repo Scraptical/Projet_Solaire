@@ -172,7 +172,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Donn\303\251es Luminaire", nullptr));
         actionAjuster_Luminosit->setText(QCoreApplication::translate("MainWindow", "Ajuster Luminosit\303\251", nullptr));
         actionSwitch_Reseaux->setText(QCoreApplication::translate("MainWindow", "Switch Reseaux", nullptr));
         actionStatistiques->setText(QCoreApplication::translate("MainWindow", "Statistiques", nullptr));

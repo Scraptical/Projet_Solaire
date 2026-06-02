@@ -99,7 +99,7 @@ public:
 
     void retranslateUi(QDialog *Switch)
     {
-        Switch->setWindowTitle(QCoreApplication::translate("Switch", "Dialog", nullptr));
+        Switch->setWindowTitle(QCoreApplication::translate("Switch", "Options R\303\251seaux", nullptr));
         RadioBat->setText(QCoreApplication::translate("Switch", "Batterie", nullptr));
         RadioRes->setText(QCoreApplication::translate("Switch", "Reseau EDF", nullptr));
         label_3->setText(QCoreApplication::translate("Switch", "Configuration Actuelle : ", nullptr));
