@@ -10,7 +10,7 @@ JaugeEclair::JaugeEclair(QWidget *parent)
 
 void JaugeEclair::setValue(double v)
 {
-    value = qBound(0.0, v, 1000.0);
+    p_value = qBound(0.0, v, 1000.0);
     update();
 }
 
@@ -39,18 +39,18 @@ void JaugeEclair::paintEvent(QPaintEvent *)
     p.setClipRegion(QRegion(lightning));
 
     //Hauteur de remplissage
-    int fillHeight = r.height() * (value / 100.0);
+    int fillHeight = r.height() * (p_value / 100.0);
 
     QRect fillRect(0, r.height() - fillHeight,
                    r.width(), fillHeight);
 
     //Couleur dynamique
     QColor color;
-    if(value < 30)
+    if(p_value < 30)
         color = Qt::red;
-    else if(value < 70)
+    else if(p_value < 70)
         color = Qt::yellow;
-    else if(value > 150)
+    else if(p_value > 150)
         color = Qt::darkRed;
     else
         color = Qt::green;

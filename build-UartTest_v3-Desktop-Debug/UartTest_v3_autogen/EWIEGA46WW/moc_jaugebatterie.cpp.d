@@ -1,19 +1,5 @@
-UartTest_v3_autogen/timestamp: \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/CMakeLists.txt \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/ajustlum.cpp \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/ajustlum.h \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/jaugebatterie.cpp \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/jaugebatterie.h \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/jaugeeclair.cpp \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/jaugeeclair.h \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/main.cpp \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/mainwindow.cpp \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/mainwindow.h \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/switch.cpp \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/switch.h \
-  CMakeFiles/3.25.1/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.25.1/CMakeSystem.cmake \
-  UartTest_v3_autogen/moc_predefs.h \
+/home/admin/Documents/Qt\ test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/EWIEGA46WW/moc_jaugebatterie.cpp: /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/jaugebatterie.h \
+  /home/admin/Documents/Qt\ test/Projet_Solaire/build-UartTest_v3-Desktop-Debug/UartTest_v3_autogen/moc_predefs.h \
   /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/aarch64-linux-gnu/bits/byteswap.h \
   /usr/include/aarch64-linux-gnu/bits/confname.h \
@@ -95,19 +81,9 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/aarch64-linux-gnu/c++/12/bits/ctype_inline.h \
   /usr/include/aarch64-linux-gnu/c++/12/bits/gthr-default.h \
   /usr/include/aarch64-linux-gnu/c++/12/bits/gthr.h \
-  /usr/include/aarch64-linux-gnu/c++/12/bits/messages_members.h \
   /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
-  /usr/include/aarch64-linux-gnu/c++/12/bits/time_members.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/QDebug \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/QDir \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/QFile \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/QJsonDocument \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/QJsonObject \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/QPair \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/QString \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/QTextStream \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qalgorithms.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qanystringview.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -120,9 +96,6 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearrayalgorithms.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearraylist.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearrayview.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qcalendar.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qcborcommon.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qcborvalue.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qchar.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qcompare.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qcompare_impl.h \
@@ -133,28 +106,18 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qcontainertools_impl.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qdatastream.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qdatetime.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qdebug.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qdir.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qfile.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qfiledevice.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qfileinfo.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qflags.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qforeach.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qglobal.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qglobalstatic.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qhash.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qhashfunctions.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qiodevice.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qiodevicebase.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qiterable.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qiterator.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qjsondocument.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qjsonobject.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qjsonvalue.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qline.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qlist.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qlocale.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qlogging.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qmap.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qmargins.h \
@@ -172,7 +135,6 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qprocessordetection.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qrect.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qrefcount.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qregularexpression.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qscopedpointer.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qscopeguard.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qset.h \
@@ -199,9 +161,7 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtextstream.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtmetamacros.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtypeinfo.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qurl.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qutf8stringview.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/quuid.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qvariant.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qversiontagging.h \
@@ -234,20 +194,8 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/aarch64-linux-gnu/qt6/QtGui/qtguiglobal.h \
   /usr/include/aarch64-linux-gnu/qt6/QtGui/qtransform.h \
   /usr/include/aarch64-linux-gnu/qt6/QtGui/qwindowdefs.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtSerialPort/QSerialPort \
-  /usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qserialport.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qserialportglobal.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtSerialPort/qtserialportexports.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
-  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QLCDNumber \
-  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QMainWindow \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QWidget \
-  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qframe.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlcdnumber.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
   /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -281,8 +229,6 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/c++/12/bits/c++0x_warning.h \
   /usr/include/c++/12/bits/char_traits.h \
   /usr/include/c++/12/bits/charconv.h \
-  /usr/include/c++/12/bits/chrono.h \
-  /usr/include/c++/12/bits/codecvt.h \
   /usr/include/c++/12/bits/concept_check.h \
   /usr/include/c++/12/bits/cpp_type_traits.h \
   /usr/include/c++/12/bits/cxxabi_forced.h \
@@ -292,10 +238,6 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/c++/12/bits/exception.h \
   /usr/include/c++/12/bits/exception_defines.h \
   /usr/include/c++/12/bits/exception_ptr.h \
-  /usr/include/c++/12/bits/fs_dir.h \
-  /usr/include/c++/12/bits/fs_fwd.h \
-  /usr/include/c++/12/bits/fs_ops.h \
-  /usr/include/c++/12/bits/fs_path.h \
   /usr/include/c++/12/bits/functexcept.h \
   /usr/include/c++/12/bits/functional_hash.h \
   /usr/include/c++/12/bits/hash_bytes.h \
@@ -305,11 +247,8 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/c++/12/bits/list.tcc \
   /usr/include/c++/12/bits/locale_classes.h \
   /usr/include/c++/12/bits/locale_classes.tcc \
-  /usr/include/c++/12/bits/locale_conv.h \
   /usr/include/c++/12/bits/locale_facets.h \
   /usr/include/c++/12/bits/locale_facets.tcc \
-  /usr/include/c++/12/bits/locale_facets_nonio.h \
-  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
   /usr/include/c++/12/bits/localefwd.h \
   /usr/include/c++/12/bits/max_size_type.h \
   /usr/include/c++/12/bits/memoryfwd.h \
@@ -325,7 +264,6 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/c++/12/bits/postypes.h \
   /usr/include/c++/12/bits/predefined_ops.h \
   /usr/include/c++/12/bits/ptr_traits.h \
-  /usr/include/c++/12/bits/quoted_string.h \
   /usr/include/c++/12/bits/range_access.h \
   /usr/include/c++/12/bits/ranges_algo.h \
   /usr/include/c++/12/bits/ranges_algobase.h \
@@ -378,14 +316,12 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/c++/12/climits \
   /usr/include/c++/12/clocale \
   /usr/include/c++/12/cmath \
-  /usr/include/c++/12/codecvt \
   /usr/include/c++/12/compare \
   /usr/include/c++/12/concepts \
   /usr/include/c++/12/cstddef \
   /usr/include/c++/12/cstdint \
   /usr/include/c++/12/cstdlib \
   /usr/include/c++/12/cstring \
-  /usr/include/c++/12/ctime \
   /usr/include/c++/12/cwchar \
   /usr/include/c++/12/cwctype \
   /usr/include/c++/12/debug/assertions.h \
@@ -398,16 +334,13 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/c++/12/ext/numeric_traits.h \
   /usr/include/c++/12/ext/string_conversions.h \
   /usr/include/c++/12/ext/type_traits.h \
-  /usr/include/c++/12/filesystem \
   /usr/include/c++/12/functional \
   /usr/include/c++/12/initializer_list \
-  /usr/include/c++/12/iomanip \
   /usr/include/c++/12/ios \
   /usr/include/c++/12/iosfwd \
   /usr/include/c++/12/iterator \
   /usr/include/c++/12/limits \
   /usr/include/c++/12/list \
-  /usr/include/c++/12/locale \
   /usr/include/c++/12/map \
   /usr/include/c++/12/memory \
   /usr/include/c++/12/new \
@@ -419,12 +352,10 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/c++/12/pstl/glue_algorithm_defs.h \
   /usr/include/c++/12/pstl/glue_memory_defs.h \
   /usr/include/c++/12/pstl/glue_numeric_defs.h \
-  /usr/include/c++/12/ratio \
   /usr/include/c++/12/stdexcept \
   /usr/include/c++/12/streambuf \
   /usr/include/c++/12/string \
   /usr/include/c++/12/string_view \
-  /usr/include/c++/12/system_error \
   /usr/include/c++/12/tr1/bessel_function.tcc \
   /usr/include/c++/12/tr1/beta_function.tcc \
   /usr/include/c++/12/tr1/ell_integral.tcc \
@@ -449,7 +380,6 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
@@ -467,155 +397,9 @@ UartTest_v3_autogen/timestamp: \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6Config.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6Targets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6VersionlessTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtFeature.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtFeatureCommon.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets-none.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets-none.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets-none.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets-none.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets-none.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortAdditionalTargetInfo.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortConfig.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortDependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortTargets-none.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6SerialPort/Qt6SerialPortVersionlessTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestConfig.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestDependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestTargets-none.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Test/Qt6TestVersionlessTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets-none.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /usr/lib/aarch64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
   /usr/lib/linux/uapi/arm64/asm/errno.h \
   /usr/lib/linux/uapi/arm64/asm/unistd.h \
   /usr/lib/linux/uapi/arm64/asm/unistd_64.h \
   /usr/lib/llvm-14/lib/clang/14.0.6/include/stdarg.h \
   /usr/lib/llvm-14/lib/clang/14.0.6/include/stdbool.h \
-  /usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h \
-  /usr/share/cmake-3.25/Modules/CMakeCXXInformation.cmake \
-  /usr/share/cmake-3.25/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/share/cmake-3.25/Modules/CMakeGenericSystem.cmake \
-  /usr/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake \
-  /usr/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake \
-  /usr/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake-3.25/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/share/cmake-3.25/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake \
-  /usr/share/cmake-3.25/Modules/CheckLibraryExists.cmake \
-  /usr/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake-3.25/Modules/Compiler/Clang-CXX.cmake \
-  /usr/share/cmake-3.25/Modules/Compiler/Clang.cmake \
-  /usr/share/cmake-3.25/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake-3.25/Modules/FeatureSummary.cmake \
-  /usr/share/cmake-3.25/Modules/FindOpenGL.cmake \
-  /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/share/cmake-3.25/Modules/FindPackageMessage.cmake \
-  /usr/share/cmake-3.25/Modules/FindPkgConfig.cmake \
-  /usr/share/cmake-3.25/Modules/FindThreads.cmake \
-  /usr/share/cmake-3.25/Modules/FindVulkan.cmake \
-  /usr/share/cmake-3.25/Modules/GNUInstallDirs.cmake \
-  /usr/share/cmake-3.25/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/share/cmake-3.25/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/share/cmake-3.25/Modules/MacroAddFileDependencies.cmake \
-  /usr/share/cmake-3.25/Modules/Platform/Linux-Clang-CXX.cmake \
-  /usr/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake \
-  /usr/share/cmake-3.25/Modules/Platform/Linux.cmake \
-  /usr/share/cmake-3.25/Modules/Platform/UnixPaths.cmake \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/ajustlum.ui \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/mainwindow.ui \
-  /home/admin/Documents/Qt\ test/Projet_Solaire/UartTest_v3/switch.ui \
-  /usr/bin/cmake
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h

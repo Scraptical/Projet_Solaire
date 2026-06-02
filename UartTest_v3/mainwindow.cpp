@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "jaugeeclair.h"
+#include "jaugebatterie.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -18,6 +19,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->actionSwitch_Reseaux,&QAction::triggered,this,&MainWindow::open_reseaux);
 
     ui->PowerJauge->setValue(0);
+    ui->BatteryJauge->setValue(0);
 
     connect(switche,&Switch::activateSerialWrite_Switch,this,&MainWindow::SendTrame_etatSwitch);
     connect(ajustlum,&Ajustlum::activateSerialWrite_Slider,this,&MainWindow::SendTrame_etatSlider);
@@ -114,6 +116,7 @@ void MainWindow::updateUIvalue(Valeurs valeurs)
     ui->PowerJauge->setValue(int(valeurs.puissance));
     ui->labelBattery->setText(QString("Batterie : %1 %").arg(valeurs.batterie));
     ui->lcdBattery->display(valeurs.batterie);
+    ui->BatteryJauge->setValue(int(valeurs.batterie));
     ui->labelTemp->setText(QString("Temperature : %1 °C").arg(valeurs.temp));
     ui->lcdTemp->display(valeurs.temp);
     //Ne pas oublier de rajouter des label dans la UI lorsqu'on rajoute des valeurs !!

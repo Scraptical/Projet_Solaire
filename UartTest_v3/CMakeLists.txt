@@ -26,6 +26,8 @@ set(PROJECT_SOURCES
         switch.ui
         jaugeeclair.cpp
         jaugeeclair.h
+        jaugebatterie.cpp
+        jaugebatterie.h
         #UartUnitaire.cpp
 )
 

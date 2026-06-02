@@ -18,7 +18,7 @@ protected:
     void paintEvent(QPaintEvent *event) override;
 
 private:
-    double value = 0;
+    double p_value = 0;
 
 
 };

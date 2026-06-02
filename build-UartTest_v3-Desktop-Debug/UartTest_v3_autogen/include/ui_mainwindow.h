@@ -20,6 +20,7 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
+#include "jaugebatterie.h"
 #include "jaugeeclair.h"
 
 QT_BEGIN_NAMESPACE
@@ -36,7 +37,6 @@ public:
     QLCDNumber *lcdBattery;
     QLabel *W;
     QLCDNumber *lcdTemp;
-    QWidget *widget_2;
     QLCDNumber *lcdPower;
     QLabel *labelBattery;
     QLabel *celcius;
@@ -44,7 +44,7 @@ public:
     QLabel *labelPower;
     JaugeEclair *PowerJauge;
     QLabel *labelData;
-    QWidget *widget;
+    JaugeBatterie *BatteryJauge;
     QMenuBar *menubar;
     QMenu *menuOptions;
     QStatusBar *statusbar;
@@ -95,11 +95,6 @@ public:
 
         gridLayout->addWidget(lcdTemp, 6, 4, 1, 1);
 
-        widget_2 = new QWidget(centralwidget);
-        widget_2->setObjectName("widget_2");
-
-        gridLayout->addWidget(widget_2, 9, 4, 1, 2);
-
         lcdPower = new QLCDNumber(centralwidget);
         lcdPower->setObjectName("lcdPower");
         lcdPower->setStyleSheet(QString::fromUtf8("background-color: rgb(255,255,255)"));
@@ -149,10 +144,10 @@ public:
 
         gridLayout->addWidget(labelData, 0, 1, 1, 1);
 
-        widget = new QWidget(centralwidget);
-        widget->setObjectName("widget");
+        BatteryJauge = new JaugeBatterie(centralwidget);
+        BatteryJauge->setObjectName("BatteryJauge");
 
-        gridLayout->addWidget(widget, 9, 3, 1, 1);
+        gridLayout->addWidget(BatteryJauge, 9, 3, 1, 3);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);

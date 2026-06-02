@@ -264,6 +264,12 @@
 			null
 		],
 		[
+			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/jaugebatterie.h",
+			"MU",
+			"EWIEGA46WW/moc_jaugebatterie.cpp",
+			null
+		],
+		[
 			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/jaugeeclair.h",
 			"MU",
 			"EWIEGA46WW/moc_jaugeeclair.cpp",
@@ -353,6 +359,11 @@
 	[
 		[
 			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/ajustlum.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/admin/Documents/Qt test/Projet_Solaire/UartTest_v3/jaugebatterie.cpp",
 			"MU",
 			null
 		],
