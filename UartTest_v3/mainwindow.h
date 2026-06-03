@@ -24,9 +24,9 @@ QT_END_NAMESPACE
 
 struct Valeurs
 {
-    double puissance = 0;
-    int batterie = 0;
-    int temp = 0;
+    double tension = 0;
+    double batterie = 0;
+    double temp = 0;
 };
 
 class MainWindow : public QMainWindow

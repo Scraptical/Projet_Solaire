@@ -177,11 +177,11 @@ public:
         actionSwitch_Reseaux->setText(QCoreApplication::translate("MainWindow", "Switch Reseaux", nullptr));
         actionStatistiques->setText(QCoreApplication::translate("MainWindow", "Statistiques", nullptr));
         pourcent->setText(QCoreApplication::translate("MainWindow", "%", nullptr));
-        W->setText(QCoreApplication::translate("MainWindow", "W", nullptr));
+        W->setText(QCoreApplication::translate("MainWindow", "V", nullptr));
         labelBattery->setText(QCoreApplication::translate("MainWindow", "Batterie : -- %", nullptr));
         celcius->setText(QCoreApplication::translate("MainWindow", "\302\260C", nullptr));
         labelTemp->setText(QCoreApplication::translate("MainWindow", "Temperature : -- \302\260C", nullptr));
-        labelPower->setText(QCoreApplication::translate("MainWindow", "Puissance : -- W", nullptr));
+        labelPower->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p>Tension : -- V</p></body></html>", nullptr));
         labelData->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
         menuOptions->setTitle(QCoreApplication::translate("MainWindow", "Options", nullptr));
     } // retranslateUi

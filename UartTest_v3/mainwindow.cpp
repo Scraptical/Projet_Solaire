@@ -31,7 +31,7 @@ void MainWindow::setupSerial()
 {
     serial = new QSerialPort(this);
 
-    serial->setPortName("/dev/serial0");
+    serial->setPortName("/dev/serial1");
     serial->setBaudRate(QSerialPort::Baud115200);
     serial->setDataBits(QSerialPort::Data8);
     serial->setParity(QSerialPort::NoParity);
@@ -92,11 +92,11 @@ Valeurs MainWindow::convertData(QJsonDocument doc)
 {
     Valeurs valeurs;
     QJsonObject obj = doc.object();
-    if(obj.contains("P") && obj.contains("B") && obj.contains("T"))
+    if(obj.contains("V") && obj.contains("B") && obj.contains("T"))
     {
-        valeurs.puissance = obj["P"].toDouble();
-        valeurs.batterie = obj["B"].toInt();
-        valeurs.temp = obj["T"].toInt();
+        valeurs.tension = obj["V"].toDouble();
+        valeurs.batterie = obj["B"].toDouble();
+        valeurs.temp = obj["T"].toDouble();
 
         updateUIvalue(valeurs);
         return valeurs;
@@ -107,9 +107,9 @@ Valeurs MainWindow::convertData(QJsonDocument doc)
 void MainWindow::updateUIvalue(Valeurs valeurs)
 {
     qDebug() << "Mise à jour UI, veuillez patienter...";
-    ui->labelPower->setText(QString("Puissance : %1 W").arg(valeurs.puissance));
-    ui->lcdPower->display(valeurs.puissance);
-    ui->PowerJauge->setValue(int(valeurs.puissance));
+    ui->labelPower->setText(QString("Tension : %1 V").arg(valeurs.tension));
+    ui->lcdPower->display(valeurs.tension);
+    ui->PowerJauge->setValue(int(valeurs.tension));
     ui->labelBattery->setText(QString("Batterie : %1 %").arg(valeurs.batterie));
     ui->lcdBattery->display(valeurs.batterie);
     ui->BatteryJauge->setValue(int(valeurs.batterie));
